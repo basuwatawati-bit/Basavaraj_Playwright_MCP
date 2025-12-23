@@ -14,5 +14,5 @@ test('search for T-shirts and verify result', async ({ page }) => {
 
   // 3. Verify "Faded Short Sleeve T-shirts" is in the search results
   await searchResultsPage.expectProductVisible('Faded Short Sleeve T-shirts');
-  //test.step('Verified that "Faded Short Sleeve T-shirts" is visible in the search results');
+  
 });
